@@ -17,8 +17,17 @@
 
 ## 2. Setting up the server application and run.
 ### 2.1 Build image:
-    
+    git clone git@github.com:ProkopMax/XRay-obfuscate.git && cd XRay-obfuscate/
+    docker-compose build --no-cache
 ### 2.2 Generate keys and id:
+    # Generate uuid:
+    docker run -it --rm xray-proxy uuid
+
+    # Generate private and public keys:
+    docker run -it --rm xray-proxy x25519
+
+    # Generate short ID:
+    openssl rand -hex 8
 ### 2.3 Settings the conf file:
 ### 2.4 Run the server application:
 ### 2.5 Check docker containers:
