@@ -35,16 +35,13 @@
 ### 2.5 Check docker containers:
     docker ps -a | grep xray-proxy
     docker logs xray-proxy-1
-    
-    ### Clear build, run whithout cache and delete old images ###
-    docker-compose build --no-cache; docker-compose up -d; docker rmi $(docker images | grep none | awk {'print $3'})
-## 4. Check docker containers   
-    docker ps -a | grep parsing
+       
+## 3. Client Setup.  
+### 3.1 Nekoray https://github.com/MatsuriDayo/nekoray/releases:
+![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/a0c32601-a50c-4e78-aa14-a80564f829a7)
+![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/eaee2fdb-f237-4c80-acf7-86d26a504e6c)
 
-## 5. View site 
+
+### 3.2 Android v2rayNG: 
     http://localhost:8000
 
-### Nginx + ssl + security
-    1. Install nginx 
-    2. Install certbot and generate cert for your domain name
-    3. Use and change files nginx/parsing-sheets.conf nginx/nginx.conf for your needs
