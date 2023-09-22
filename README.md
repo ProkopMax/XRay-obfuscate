@@ -28,12 +28,13 @@
 
     # Generate short ID:
     openssl rand -hex 8
-### 2.3 Settings the conf file:
+### 2.3 Settings config.json:
     ![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/c02233cc-da32-4f23-818e-f17cf2017a52)
-
 ### 2.4 Run the server application:
+    docker-compose up -d
 ### 2.5 Check docker containers:
-    
+    docker ps -a | grep xray-proxy
+    docker logs xray-proxy-1
     
     ### Clear build, run whithout cache and delete old images ###
     docker-compose build --no-cache; docker-compose up -d; docker rmi $(docker images | grep none | awk {'print $3'})
