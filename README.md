@@ -29,7 +29,7 @@
     # Generate short ID:
     openssl rand -hex 8
 ### 2.3 Settings config.json:
-    ![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/c02233cc-da32-4f23-818e-f17cf2017a52)
+![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/c02233cc-da32-4f23-818e-f17cf2017a52)
 ### 2.4 Run the server application:
     docker-compose up -d
 ### 2.5 Check docker containers:
