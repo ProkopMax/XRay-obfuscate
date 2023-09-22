@@ -7,24 +7,14 @@
     "domainStrategy": "AsIs"
   },
   "inbounds": [
-    {
-      "port": 55121,
-      "tag": "ss",
-      "protocol": "shadowsocks",
-      "settings": {
-        "method": "2022-blake3-aes-128-gcm",
-        "password": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbb",
-        "network": "tcp,udp"
-      }
-    },
-    {
+     {
       "port": 443,
       "protocol": "vless",
       "tag": "vless_tls",
       "settings": {
         "clients": [
           {
-            "id": "7e964a49-a574-46bc-8a99-246fca2b97b7",
+            "id": "YOUR UUID",
             "email": "user1@myserver",
             "flow": "xtls-rprx-vision"
           }
@@ -41,12 +31,12 @@
 			"serverNames": [
 				"www.microsoft.com"
 			],
-			"privateKey": "iATpZuHCHJ0uglcg07rt5xQ70Qe2Fwbau7Y65mhy7Eg",
+			"privateKey": "YOUR PRIVET KEY",
 			"minClientVer": "",
 			"maxClientVer": "",
 			"maxTimeDiff": 0,
 			"shortIds": [
-				"d8b167e720500323"
+				"YOUR SHORTSID"
 			]
 		}
       },
