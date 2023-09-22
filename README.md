@@ -1,7 +1,19 @@
-# Example of parsing a Google table without api access
+# Server XRAY with XTLS-Reality in the docker container.
+# Community https://github.com/XTLS
 
-## 1. Install docker 
+## 1 Prepare server to install
+### 1.1 Performance tuning (Bottleneck Bandwidth и Round-trip propagation time (BBR) congestion control algorithm):
+    echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+    echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+    sysctl -p
+### 1.2 Сonfiguring the firewall:
+    It is important to use port 443.
+    It is necessary to check that the port 443 is not busy and open.
+### 1.3 Install docker and docker-compose 
     https://docs.docker.com/engine/install/
+    sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+    sudo chmod +x /usr/local/bin/docker-compose
+    docker-compose --version
 ## 2. Install docker-compose
     sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
     sudo chmod +x /usr/local/bin/docker-compose
