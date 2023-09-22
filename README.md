@@ -40,8 +40,17 @@
 ### 3.1 Nekoray https://github.com/MatsuriDayo/nekoray/releases:
 ![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/a0c32601-a50c-4e78-aa14-a80564f829a7)
 ![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/eaee2fdb-f237-4c80-acf7-86d26a504e6c)
+![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/5f4d0789-aaeb-4f48-a6c0-0cb5958d6110)
+![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/980efeb7-772d-4886-b72b-c45bdedb11e1)
 
+### 3.2 Android v2rayNG:
+    You can export settings for the client from the windows application Nekoray with QR-code
 
-### 3.2 Android v2rayNG: 
-    http://localhost:8000
+## 4. Update the XRAY version.
+### 4.1 Change version in the .env file:
+    TAG=v1.8.4
+### 4.2 Build new image and restart the server application:
+    docker-compose build --no-cache; docker-compose up -d;
 
+## 5. Examples settings in the config.json.
+https://github.com/XTLS/Xray-examples/tree/main
