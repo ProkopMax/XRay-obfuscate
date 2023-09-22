@@ -15,4 +15,3 @@ services:
       - ./config.json:/etc/xray/config.json:ro
     ports:
       - "443:443"
-      - "55121:55121"
