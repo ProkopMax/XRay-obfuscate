@@ -17,9 +17,11 @@
 
 ## 2. Setting up the server application and run.
 ### 2.1 Build image:
+    
 ### 2.2 Generate keys and id:
 ### 2.3 Settings the conf file:
 ### 2.4 Run the server application:
+### 2.5 Check docker containers:
     
     
     ### Clear build, run whithout cache and delete old images ###
