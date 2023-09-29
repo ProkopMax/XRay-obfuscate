@@ -41,7 +41,8 @@
 ![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/a0c32601-a50c-4e78-aa14-a80564f829a7)
 ![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/eaee2fdb-f237-4c80-acf7-86d26a504e6c)
 ![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/5f4d0789-aaeb-4f48-a6c0-0cb5958d6110)
-![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/980efeb7-772d-4886-b72b-c45bdedb11e1)
+![image](https://github.com/ProkopMax/XRay-obfuscate/assets/72852008/1b3fbc98-1c7a-481d-82f6-e5d44ee42707)
+
 
 ### 3.2 Android v2rayNG:
     You can export settings for the client from the windows application Nekoray with QR-code
