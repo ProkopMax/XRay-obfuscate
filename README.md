@@ -21,10 +21,10 @@
     docker-compose build --no-cache
 ### 2.2 Generate keys and id:
     # Generate uuid:
-    docker run -it --rm xray-proxy uuid
+    docker run -it --rm xray-obfuscate-proxy uuid
 
     # Generate private and public keys:
-    docker run -it --rm xray-proxy x25519
+    docker run -it --rm xray-obfuscate-proxy x25519
 
     # Generate short ID:
     openssl rand -hex 8
@@ -34,7 +34,7 @@
     docker-compose up -d
 ### 2.5 Check docker containers:
     docker ps -a | grep xray-proxy
-    docker logs xray-proxy-1
+    docker logs xray-obfuscate-proxy-1
        
 ## 3. Client Setup.  
 ### 3.1 Nekoray https://github.com/MatsuriDayo/nekoray/releases:
