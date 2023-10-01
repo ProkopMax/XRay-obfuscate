@@ -17,7 +17,7 @@
 
 ## 2. Setting up the server application and run.
 ### 2.1 Build image:
-    git clone git@github.com:ProkopMax/XRay-obfuscate.git && cd XRay-obfuscate/
+    git clone https://github.com/ProkopMax/XRay-obfuscate.git && cd XRay-obfuscate/
     docker-compose build --no-cache
 ### 2.2 Generate keys and id:
     # Generate uuid:
