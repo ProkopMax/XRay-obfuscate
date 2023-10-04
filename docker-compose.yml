@@ -9,7 +9,7 @@ services:
       dockerfile: Dockerfile
       args:
         TAG: ${TAG}
-    restart: unless-stopped
+    #restart: unless-stopped
     command: [ "-config", "/etc/xray/config.json" ]
     volumes:
       - ./config.json:/etc/xray/config.json:ro
