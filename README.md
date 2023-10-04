@@ -33,7 +33,7 @@
 ### 2.4 Run the server application:
     docker-compose up -d
 ### 2.5 Check docker containers:
-    docker ps -a | grep xray-proxy
+    docker ps -a | grep xray-obfuscate-proxy
     docker logs xray-obfuscate-proxy-1
        
 ## 3. Client Setup.  
